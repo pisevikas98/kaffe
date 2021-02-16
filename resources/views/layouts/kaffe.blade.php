@@ -15,7 +15,7 @@
    width: 100%;
    background-color: black;
    color: white;
-   text-align: right;
+   text-align: center;
 
 }
       
@@ -31,7 +31,7 @@
       <li><a href="{{url('order_read')}}">Order</a></li>
       <li><a href="{{url('read_visit')}}">Visiter</a></li>
       <li><a href="{{url('sales')}}">Sales</a></li>
-      <li><a href="#">About Us</a></li>
+      <li><a href="{{url('foodlist')}}">Item Lists</a></li>
       <li><a href="{{url('/')}}">Home</a></li>
     </ul>
   </div>
